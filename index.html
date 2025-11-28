@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manikrao Yadav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="Logo.png" alt="Logo" class="Logoimg" />
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="navMenu">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Manikrao<br /></h1>
+        <p class="subtitle">Aspiring Data Analyst</p>
+        <a href="#work" class="cta-button">EXPLORE MY WORK</a>
+      </div>
+      <div class="hero_img">
+        <img src="Mypic.png" alt="" />
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>ABOUT ME</h2>
+      <p class="section-subtitle">Who I am and what I do</p>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi, my name is Manik. I've completed my Bachelor's in Computer
+            Applications from Karnatak College with a good academic grades, and I'm currently pursuing a
+            Data Analytics course to strengthen my skills in Python, SQL, and
+            data visualization.
+          </p>
+          <p>
+            I chose this field because I'm fascinated by how data helps in
+            making smarter decisions and solving real-world problems.
+          </p>
+          <p>
+            Apart from academics, I've explored areas like video editing,
+            YouTube, blogging, and content creation on Instagram & also on YouTube, which helped
+            me understand how people interact with content. In my free time, I
+            enjoy bingewatching shows, playing games like CODM, and I'm also
+            into fitness and MMA. That's all about me.
+          </p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 1.5rem">
+          <div>
+            <h3
+              style="font-size: 1.5rem; margin-bottom: 1.5rem; font-weight: 800"
+            >
+              TECHNICAL EXPERTISE
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-item">PYTHON</div>
+              <div class="skill-item">SQL</div>
+              <div class="skill-item">POWER BI</div>
+              <div class="skill-item">EXCEL</div>
+            </div>
+          </div>
+          <div class="skill-item stats">STATISTICS</div>
+        </div>
+      </div>
+
+      <div class="stats-section">
+        <div class="stat-item">
+          <div class="stat-number">3</div>
+          <div class="stat-label">PROJECTS COMPLETED</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">7+</div>
+          <div class="stat-label">DASHBOARDS CREATED</div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>MY WORK</h2>
+      <p class="section-subtitle">
+        Dashboards and projects that showcase my analytical capabilities
+      </p>
+
+      <div class="dashboard-gallery">
+        <div class="dashboard-item">
+          <div class="dashboard-image dashboard-image1">
+            <!-- <img src="SS-1.png" alt="Sales Performance Dashboard"> -->
+          </div>
+          <div class="dashboard-info">
+            <h3>Return order performance dashboard</h3>
+            <p>
+              Comprehensive return order analytics platform tracking KPIs, regional
+              performance, and return order trends across multiple reasons, sub_category etc..
+              Features dynamic filtering and drill-down capabilities for
+              granular analysis.
+            </p>
+            <div class="dashboard-tags">
+              <span class="tag">POWER BI</span>
+              <span class="tag">DAX</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-item">
+          <div class="dashboard-image dashboard-image2">
+            <!-- Replace with: <img src="images/dashboard2.png" alt="Customer Analytics"> -->
+          </div>
+          <div class="dashboard-info">
+            <h3>Customer Behavior Analytics</h3>
+            <p>
+              Static dashboard analyzing customer segments, purchase
+              patterns, and lifetime value metrics.
+            </p>
+            <div class="dashboard-tags">
+              <span class="tag">POWER BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">POWER POINT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-item">
+          <div class="dashboard-image dashboard-image3  ">
+            <!-- Replace with: <img src="images/dashboard3.png" alt="Marketing Analytics"> -->
+          </div>
+          <div class="dashboard-info">
+            <h3>Order Analysis Dashboard</h3>
+            <p>
+              Static dashboard providing insights of order trends quqarterly, regional performance, and product category analysis. product-wise performance analysis.
+            </p>
+            <div class="dashboard-tags">
+              <span class="tag">POWER BI</span>
+              <span class="tag">DAX</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-item">
+          <div class="dashboard-image dashboard-image4">
+            <!-- Replace with: <img src="images/dashboard4.png" alt="Financial Dashboard"> -->
+          </div>
+          <div class="dashboard-info">
+            <h3>Executive overview Dashboard</h3>
+            <p>
+              Executive-level financial dashboard providing real-time insights
+              into revenue, discounts, and reagional performance. 
+            </p>
+            <div class="dashboard-tags">
+              <span class="tag">POWER BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">EXCEL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-item">
+          <div class="dashboard-image dashboard-image5">
+            <!-- Replace with: <img src="images/dashboard5.png" alt="Supply Chain Dashboard"> -->
+          </div>
+          <div class="dashboard-info">
+            <h3>Product and Customer Dashboard</h3>
+            <p>
+              customer and product analytics dashboard tracking sales trends, customer demographics, and product performance metrics.
+            </p>
+            <div class="dashboard-tags">
+              <span class="tag">POWER BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">EXCEL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-item">
+          <div class="dashboard-image dashboard-image6">
+            <!-- Replace with: <img src="images/dashboard6.png" alt="HR Analytics"> -->
+          </div>
+          <div class="dashboard-info">
+            <h3>Delivery Analytics Dashboard</h3>
+            <p>
+              Qrarterly delivery performance with regional analysis, and percentage of late deliveries.
+
+            </p>
+            <div class="dashboard-tags">
+              <span class="tag">POWER BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">EXCEL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>LET'S CONNECT🫱🏼‍🫲🏼</h2>
+      <p class="section-subtitle">
+        Interested in working together? Get in touch.
+      </p>
+
+      <div class="contact-content">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">SEND MESSAGE</button>
+        </form>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/manikraoyadav/" target="_blank"
+            >LINKEDIN</a
+          >
+          <a href="https://github.com/manikrao-yadav" target="_blank">GITHUB</a>
+          <a href="mailto:manikraonyad127@gmail.com">EMAIL</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 MANIKRAO YADAV. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
