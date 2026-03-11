@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manikrao Yadav — Data Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+
+    <!-- NAV -->
+    <nav>
+      <div class="container">
+        <div class="logo floating-logo">
+          <img src="Animated_logo-ezgif.com-crop.gif" alt="Logo" class="Logoimg" />
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+        <ul id="navMenu">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#dashboards">DASHBOARDS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="hero-label">PORTFOLIO · DATA ANALYST</p>
+        <h1>Manikrao<br /><span class="name-accent">Yadav</span></h1>
+        <p class="subtitle">Turning data into decisions</p>
+        <div class="hero-cta-row">
+          <a href="#dashboards" class="cta-button">EXPLORE WORK</a>
+          <a href="#contact" class="cta-outline">GET IN TOUCH</a>
+        </div>
+      </div>
+
+      <!-- Floating ID Card -->
+      <div class="id-card" id="idCard">
+        <div class="id-card-inner">
+          <div class="id-card-header">
+            <div class="id-card-logo">
+              <img src="Logo.png" alt="Logo" />
+            </div>
+            <div class="id-card-title">DA</div>
+          </div>
+          <div class="id-card-photo-wrap">
+            <div class="photo-ring ring1"></div>
+            <div class="photo-ring ring2"></div>
+            <div class="id-card-photo">
+              <img src="Mypic.png" alt="Manikrao Yadav" />
+            </div>
+          </div>
+          <div class="id-card-body">
+            <div class="id-card-name">MANIK</div>
+            <!--<div class="id-card-role"></div>-->
+            <div class="id-card-divider"></div>
+            <div class="id-card-skills">
+              <span class="id-skill powerbi-badge">★ POWER BI</span>
+              <span class="id-skill">SQL</span>
+              <span class="id-skill">PYTHON</span>
+            </div>
+          </div>
+          <div class="id-card-drag-hint">DRAG ME</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-header">
+        <h2>ABOUT ME</h2>
+        <p class="section-subtitle">Who I am and what I do</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hi, my name is <strong>Manik</strong>. I've completed my Bachelor's in Computer Applications(BCA) from Karnatak College, Bidar, Karnataka and after that i took 6 months Data Analysis course in Hyderabad. Later, i worked as an intern in Infoz IT Solution for 3 months and in between i had a 1 month IEP(industry exposure program).</p>
+          <p>I chose this field because I'm fascinated by how data helps in making smarter decisions and solving real-world problems.</p>
+          <p>Apart from academics, I've explored areas like video editing, YouTube, blogging, and content creation — which helped me understand how people interact with content. In my free time I enjoy binge-watching shows, playing CODM, and I'm also into fitness and MMA.</p>
+        </div>
+
+        <div class="skills-panel">
+          <h3 class="skills-heading">TECHNICAL EXPERTISE</h3>
+          <div class="skills-grid">
+            <!-- Power BI highlighted -->
+            <div class="skill-item skill-featured">
+              <div class="skill-icon">⚡</div>
+              <div class="skill-name">POWER BI</div>
+              <div class="skill-tag">EXPERT</div>
+              <p class="skill-desc">Dashboard design, DAX, data storytelling & insight extraction</p>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">🐍</div>
+              <div class="skill-name">PYTHON</div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">🗄️</div>
+              <div class="skill-name">SQL</div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">📊</div>
+              <div class="skill-name">EXCEL</div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">📐</div>
+              <div class="skill-name">STATISTICS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-section">
+        <div class="stat-item">
+          <div class="stat-number">9</div>
+          <div class="stat-label">PROJECTS COMPLETED</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">7+</div>
+          <div class="stat-label">DASHBOARDS CREATED</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">3</div>
+          <div class="stat-label">TOOLS MASTERED</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DASHBOARDS — Scrolling Ribbon -->
+    <section id="dashboards">
+      <div class="section-header">
+        <h2>DASHBOARDS</h2>
+        <p class="section-subtitle">Hover to preview · Click to expand</p>
+      </div>
+
+      <!-- Ribbon -->
+      <div class="ribbon-wrapper">
+        <div class="ribbon-track" id="ribbonTrack">
+
+          <div class="ribbon-card" data-img="SS-1.png" data-title="Return Order Performance" data-desc="Comprehensive return order analytics tracking KPIs, regional performance, and return trends across multiple reasons and sub-categories." data-tags="POWER BI,DAX">
+            <div class="ribbon-thumb" style="background-image:url(SS-1.png)"></div>
+            <div class="ribbon-hover-info">
+              <span>Return Order Performance</span>
+              <em>Hover to preview</em>
+            </div>
+          </div>
+
+          <div class="ribbon-card" data-img="SS-2.png" data-title="Customer Behavior Analytics" data-desc="Static dashboard analyzing customer segments, purchase patterns, and lifetime value metrics." data-tags="POWER BI,DAX,POWER POINT">
+            <div class="ribbon-thumb" style="background-image:url(SS-2.png)"></div>
+            <div class="ribbon-hover-info">
+              <span>Customer Behavior Analytics</span>
+              <em>Hover to preview</em>
+            </div>
+          </div>
+
+          <div class="ribbon-card" data-img="SS-3.png" data-title="Order Analysis Dashboard" data-desc="Insights on order trends quarterly, regional performance, and product category & product-wise performance." data-tags="POWER BI,DAX">
+            <div class="ribbon-thumb" style="background-image:url(SS-3.png)"></div>
+            <div class="ribbon-hover-info">
+              <span>Order Analysis Dashboard</span>
+              <em>Hover to preview</em>
+            </div>
+          </div>
+
+          <div class="ribbon-card" data-img="SS-4.png" data-title="Executive Overview Dashboard" data-desc="Executive-level financial dashboard with real-time insights into revenue, discounts, and regional performance." data-tags="POWER BI,DAX,EXCEL">
+            <div class="ribbon-thumb" style="background-image:url(SS-4.png)"></div>
+            <div class="ribbon-hover-info">
+              <span>Executive Overview Dashboard</span>
+              <em>Hover to preview</em>
+            </div>
+          </div>
+
+          <div class="ribbon-card" data-img="SS-5.png" data-title="Product & Customer Dashboard" data-desc="Customer and product analytics tracking sales trends, demographics, and product performance metrics." data-tags="POWER BI,DAX,EXCEL">
+            <div class="ribbon-thumb" style="background-image:url(SS-5.png)"></div>
+            <div class="ribbon-hover-info">
+              <span>Product & Customer Dashboard</span>
+              <em>Hover to preview</em>
+            </div>
+          </div>
+
+          <div class="ribbon-card" data-img="SS-6.png" data-title="Delivery Analytics Dashboard" data-desc="Quarterly delivery performance with regional analysis and percentage of late deliveries." data-tags="POWER BI,DAX,EXCEL">
+            <div class="ribbon-thumb" style="background-image:url(SS-6.png)"></div>
+            <div class="ribbon-hover-info">
+              <span>Delivery Analytics Dashboard</span>
+              <em>Hover to preview</em>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Lightbox / expanded view -->
+      <div class="dash-lightbox" id="dashLightbox">
+        <div class="dash-lightbox-inner">
+          <button class="lightbox-close" id="lightboxClose">✕</button>
+          <img src="" alt="" id="lightboxImg" />
+          <div class="lightbox-info">
+            <h3 id="lightboxTitle"></h3>
+            <p id="lightboxDesc"></p>
+            <div class="dashboard-tags" id="lightboxTags"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-header">
+        <h2>PROJECTS</h2>
+        <p class="section-subtitle">End-to-end analytics projects</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <h3>Customer, Order and Return Performance Dashboard</h3>
+            <p>Three business-focused Power BI dashboards analyzing customers, orders, and returns using real-world KPIs and DAX.</p>
+            <div class="project-tags">
+              <span class="tag">POWER BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">EXCEL</span>
+            </div>
+          </div>
+          <a href="https://github.com/manikrao-yadav/Customer_Order_and_Return-Performance_Dashboard-PowerBI-" target="_blank" class="project-link">
+            VIEW PROJECT <span>→</span>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <h3>Comprehensive Exploratory Data Analysis(EDA)</h3>
+            <p>The goal was to understand the data, identify patterns, test assumptions, and derive meaningful insights using statistical and visual analysis.</p>
+            <div class="project-tags">
+              <span class="tag">PYTHON</span>
+              <span class="tag">JUPYTER</span>
+            </div>
+          </div>
+          <a href="https://github.com/manikrao-yadav/comprehensive-EDA-project" target="_blank" class="project-link">
+            VIEW PROJECT <span>→</span>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-body">
+            <h3>Customer Churn Analysis & KPI Extraction </h3>
+            <p>Wrote 20+ SQL queries using JOIN, GROUP BY, HAVING, and aggregations.</p>
+            <div class="project-tags">
+              <span class="tag">SQL</span>
+              <span class="tag">MYSQL</span>
+              <span class="tag">Excel</span>
+            </div>
+          </div>
+          <a href="https://github.com/manikrao-yadav/sql-kpi-analysis-project" target="_blank" class="project-link">
+            VIEW PROJECT <span>→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <h2>LET'S CONNECT 🫱🏼‍🫲🏼</h2>
+      <p class="section-subtitle">Interested in working together? Get in touch.</p>
+
+      <div class="contact-content">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="name" required placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" required placeholder="What's on your mind?"></textarea>
+          </div>
+          <button type="submit">SEND MESSAGE</button>
+        </form>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/manikraoyadav/" target="_blank">LINKEDIN</a>
+          <a href="https://github.com/manikrao-yadav" target="_blank">GITHUB</a>
+          <a href="mailto:manikraonyad127@gmail.com">EMAIL</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 MANIKRAO YADAV. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
