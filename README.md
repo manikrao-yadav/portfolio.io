@@ -1,6 +1,10 @@
-# Data Analyst Portfolio
+# Data Analyst Portfolio [Link](https://manikrao-yadav.github.io/portfolio/)
+
 
 A modern, responsive portfolio website showcasing my data analytics projects, dashboards, and technical expertise.
+
+### Preview
+<img src="portfolio_ss.png" width="900"/>
 
 ## About
 
