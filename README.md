@@ -39,11 +39,8 @@ This portfolio demonstrates my skills in data analysis, visualization, and busin
 - Python
 - SQL
 - Power BI
-- Tableau
 - Excel
-- R
 - Statistics
-- Machine Learning
 
 ## Contact
 
